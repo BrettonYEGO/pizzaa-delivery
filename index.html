@@ -183,6 +183,41 @@
                         </div>
                     </div>
                 </div>
+                <!--end of Menu--->
+    
+        <!---Order's--->
+        <div id="orders" class="orders"><br><br>
+          <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-6">
+                  <h3>Enter your order details below <br>
+                      Fill in the form </h3>
+                  <form action="" id="pizzainfo">
+                      <label for="">Choose your pizza size</label>
+                      <select class="form-control" name="size" id="size">
+                          <option value="1200">Large @ ksh 1200</option>
+                          <option value="900">Medium @ ksh 800</option>
+                          <option value="600">Small @ ksh 600</option>
+                      </select>
+                      <label for="">Choose your desired crust type</label>
+                      <select class="form-control" name="" id="crust" required>
+                          <option value="230" name="crust">stuffed crust @ ksh230
+                          <option value="250" name="crust">Crispy @ ksh 250
+                          <option value="300" name="crust">Glutten free @ ksh 300
+                      </select>
+                      <label for="">Choose your Desired toppings</label> <br>
+                      <input value="150" type="checkbox" id="toppingone">Mushrooms and garlic.
+                      <input value="150" type="checkbox" id="toppingone">Sausage and kale.
+                      <input value="150" type="checkbox" id="toppingone">cheese and garlic.
+                      <input value="150" type="checkbox" id="toppingone">Ham and pineapple.
+                      <input value="150" type="checkbox" id="toppingone">tomatoa and spinach.
+              
+                      <label for="Quantity">Input Quantity</label><br><br>
+                      <input class="form-control form-group" type="text" id="numberofpizza">
+                      <button name="button" class="button" type="submit" id="submit" value="Check-Out" onclick="calctotalPrice()">Order</button>
+                  </form>
+              </div>
+
   
     
                 
