@@ -5,7 +5,7 @@
   
 }
 .logo{
-  color: rgb(201, 49, 49);
+  color: rgba(242, 42, 42, 0.761);
   text-transform:uppercase; 
 }
 .nav-links{
@@ -106,7 +106,7 @@ span{
   color: rgb(165, 228, 17);
 }
 .btn{
-  background-color: rgb(189, 60, 60);
+  background-color: rgb(226, 125, 125);
   color: white;
 }
 #menu{
